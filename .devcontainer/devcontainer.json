@@ -4,5 +4,12 @@
 		"dockerfile": "Dockerfile"
 	},
 	"overrideCommand": false,
-	"privileged": true
+	"privileged": true,
+	"privileged": true,
+	"hostRequirements": {
+		"gpu": true
+	},
+	"securityOpt": ["seccomp=unconfined"],
+	"capAdd": ["ALL"]
+	
 }
