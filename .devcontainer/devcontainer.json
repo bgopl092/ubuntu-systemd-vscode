@@ -5,7 +5,9 @@
 	},
 	"overrideCommand": false,
 	"privileged": true,
-	"init": true,
+	"hostRequirements": {
+		"gpu": true
+	},
 	"securityOpt": ["seccomp=unconfined"],
 	"capAdd": ["ALL"]
 }
