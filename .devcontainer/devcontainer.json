@@ -4,8 +4,5 @@
 		"dockerfile": "Dockerfile"
 	},
 	"overrideCommand": false,
-	"privileged": true,
-	"hostRequirements": {
-		"gpu": true
-	}
+	"privileged": true
 }
