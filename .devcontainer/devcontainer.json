@@ -4,5 +4,8 @@
 		"dockerfile": "Dockerfile"
 	},
 	"overrideCommand": false,
-	"runArgs": ["--privileged"]
+	"privileged": true,
+	"init": true,
+	"securityOpt": ["seccomp=unconfined"],
+	"capAdd": ["ALL"]
 }
