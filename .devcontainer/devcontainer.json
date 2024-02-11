@@ -7,7 +7,5 @@
 	"privileged": true,
 	"hostRequirements": {
 		"gpu": true
-	},
-	"securityOpt": ["seccomp=unconfined"],
-	"capAdd": ["ALL"]
+	}
 }
