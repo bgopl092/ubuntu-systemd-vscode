@@ -4,5 +4,5 @@
 		"dockerfile": "Dockerfile"
 	},
 	"overrideCommand": false,
-	"runArgs": ["--privileged"]
+	"runArgs": ["--privileged","--init"]
 }
