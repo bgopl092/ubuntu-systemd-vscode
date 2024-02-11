@@ -5,7 +5,6 @@
 	},
 	"overrideCommand": false,
 	"privileged": true,
-	"privileged": true,
 	"hostRequirements": {
 		"gpu": true
 	},
