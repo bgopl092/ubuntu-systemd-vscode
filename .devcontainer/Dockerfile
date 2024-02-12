@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM mcr.microsoft.com/devcontainers/base:jammy
 
 RUN apt update \
     && apt install --no-install-recommends -y rsyslog systemd systemd-cron dbus \
