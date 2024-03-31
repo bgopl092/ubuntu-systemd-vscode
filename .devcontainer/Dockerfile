@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/devcontainers/base:jammy
+FROM ubuntu:23.04
 
 RUN apt update \
     && apt install --no-install-recommends -y rsyslog systemd systemd-cron dbus \
